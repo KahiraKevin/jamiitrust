@@ -1,0 +1,1 @@
+# This directory will hold all the domain-specific Django apps.

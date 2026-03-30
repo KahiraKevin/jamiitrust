@@ -1,0 +1,30 @@
+# =========================
+# Django / Python Backend
+# =========================
+*.pyc
+*~
+__pycache__
+venv/
+env/
+.env
+db.sqlite3
+/static/
+/media/
+
+# =========================
+# React / Node Frontend
+# =========================
+node_modules/
+npm-debug.log
+build/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
