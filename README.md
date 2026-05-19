@@ -4,7 +4,7 @@
 
 This project was developed as a Final Year Project to demonstrate the technical enforcement of trust using robust financial logic and modern web technologies.
 
-## 🚀 Key Features
+## Key Features
 
 * **Secure Escrow Engine:** Funds are mathematically locked (`escrow_balance`) upon project initiation, assuring the seller that the money exists.
 * **Atomic Transactions:** Built with Django's `transaction.atomic()` and PostgreSQL row-level locking (`select_for_update`) to absolutely prevent race conditions, double-spending, or data loss during money movement.
@@ -12,7 +12,7 @@ This project was developed as a Final Year Project to demonstrate the technical 
 * **Role-Agnostic Accounts:** Any user can act as a Buyer (Client) or Seller (Freelancer/Vendor) depending on the specific transaction.
 * **Real-time Dashboard:** A responsive React frontend that accurately tracks available vs. locked balances.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 **Frontend:**
 * React.js
@@ -27,7 +27,7 @@ This project was developed as a Final Year Project to demonstrate the technical 
 **Database:**
 * PostgreSQL (Chosen for strict ACID compliance)
 
-## 🧠 System Architecture Highlight
+## System Architecture Highlight
 
 The core innovation of this platform is the money-movement logic. To guarantee that funds never disappear during a server crash, all financial transfers use database-level locking:
 
